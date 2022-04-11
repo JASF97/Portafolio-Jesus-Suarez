@@ -328,59 +328,38 @@ a {
     margin: 40px auto;
   }
   
-  input[type="text"] {
+  input[type="text"], input[type="email"], textarea {
     width: 100%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 25px;
     margin-bottom: 15px;
     padding: 18px 10px;
+    letter-spacing: 0.08em;
     
     border: 0;
-    border-bottom: 1px solid var(--secondary-blue);
-    outline: none;
-  }
-  input[type="text"]::placeholder {
-    font-size: 1.4rem;
-    font-weight: 400;
-    line-height: 25px;
-    color: var(--warm-black);
-    letter-spacing: 0.08em;
-  }
-
-
-  input[type="email"] {
-    width: 100%;
-    font-size: 1.4rem;
-    font-weight: 400;
-    margin-bottom: 15px;
-    padding: 18px 10px;
-    border: 0;
     border-bottom: 1px solid var(--warm-black);
     outline: none;
   }
-  input[type="email"]::placeholder {
-    font-size: 1.4rem;
-    font-weight: 400;
-    color: var(--gray);
-    line-height: 25px;
-    letter-spacing: 0.08em;
+
+  input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    border-bottom: 1px solid var(--secondary-blue);
   }
 
+  ::placeholder {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--gray);
+    letter-spacing: 0.08em;
+  }
   
   textarea {
-    width: 100%;
-    padding: 18px 10px;
-    border: 0;
-    border-bottom: 1px solid var(--warm-black);
+    font-family: 'Manrope', sans-serif;
     margin-bottom: 40px;
-    outline: none;
+
   }
   
-  textarea::placeholder {
-        font-size: 1.4rem;
-        font-weight: 400;
-        color: var(--gray);
-        line-height: 25px;
-        letter-spacing: 0.08em;
-  }
 
   input[type="submit"] {
     font-size: 1.4rem;
@@ -393,6 +372,7 @@ a {
     border: 0;
     border-radius: 4px;
     margin: auto;
+    cursor: pointer;
 }
 
  

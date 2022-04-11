@@ -34,8 +34,8 @@
     height: 250px;
 }
 
-.person-text h3{
-    padding: 0px 0 10px 0;
+.person-text h2{
+    font-size: 3.2rem;
 }
 
 .person-text p {
