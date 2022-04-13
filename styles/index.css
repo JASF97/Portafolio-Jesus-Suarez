@@ -241,9 +241,9 @@ a {
 .proyect-urls .urls-demo {
     font-size: 1.4rem;
     font-weight: 500;
-    color: var(--secondary-blue);
+    color: var(--just-white);
     padding: 4px 10px;
-    background: var(--soft-blue);
+    background: var(--secondary-blue);
 
     letter-spacing: 0.08em;
     border-radius: 2px;
